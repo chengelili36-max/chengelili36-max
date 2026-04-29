@@ -68,9 +68,5 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 ## 📈 GitHub Ecosystem
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chengelili36-max&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&text_color=C9D1D9&icon_color=58A6FF&title_color=58A6FF" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <i>Building data systems that think. Based in Mountain View, CA.</i>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chengelili36-max&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&text_color=C9D1D9&icon_color=58A6FF&title_color=58A6FF" />
 </p>
