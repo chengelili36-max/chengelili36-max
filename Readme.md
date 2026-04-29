@@ -92,14 +92,35 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 | [**Churn Prediction ROI**](https://github.com/chengelili36-max/Telco-Churn-ROI-Prediction) | `Random Forest` `ML` | Translated 85% precision into a **$1.59M annualized ROI framework** for P&L stakeholders. |
 | [**A/B Conversion Test**](https://github.com/chengelili36-max/E-Commerce-AB-Testing) | `Z-Test` `Statistics` | Leveraged statistical proof ($p=0.9051$) to **halt a harmful rollout**, protecting global conversion. |
 
+### 🧠Machine Learning & Statistical Rigor
+
+| Project | Method | Business Impact |
+|---------|--------|-----------------|
+| [**Churn Prediction & ROI**](https://github.com/chengelili36-max/Telco-Churn-ROI-Prediction) | Random Forest (precision-optimized, balanced weights) | Translated model output into a **$1.59M annualized ROI framework** — the bridge from AUC to P&L that most ML projects skip |
+| [**A/B Test — Conversion**](https://github.com/chengelili36-max/E-Commerce-AB-Testing) | Two-Proportion Z-Test on 290,000+ sessions | p = 0.9051 — **killed a harmful landing-page rollout** before global deployment. The value was saying "no" with statistical proof. |
+| [**E-Commerce Retention**](https://github.com/chengelili36-max/E-Commerce-SQL-Analysis) | SQL Window Functions (LAG, PARTITION BY) on 100K+ orders | Discovered a **79.2-day repurchase cycle** that retimed CRM email triggers from Day 30 to Day 65–75 |
+
+---
+## ✅Design Philosophy
+
+**1. Intelligence belongs in the pipeline, not the dashboard.**
+Data densification, sigmoid modeling, and business logic live in dbt/SQL — not in Tableau calculated fields. This makes dashboards faster, pipelines testable, and logic version-controlled.
+
+**2. Build from first principles.**
+The Sankey diagram uses 49 virtual bins and sigmoid math for ribbon geometry. No plugins. No Flourish. Understanding the mechanics means I can adapt the technique to any visualization challenge.
+
+**3. Every model must speak in dollars.**
+A churn classifier with 85% precision is interesting. A churn classifier that translates to $1.59M annualized ROI is actionable. I bridge model metrics to P&L impact because that's what decision-makers need.
+
+**4. Statistical rigor protects decisions.**
+The A/B test that killed a rollout (p = 0.9051) saved more value than the tests that "worked." The job of an analyst is to prevent bad decisions, not just confirm good ones.
+
 ---
 
 ## 🎓 Education
 
 * **Master of Science in Data Analytics** — University of La Verne
 * **Bachelor of Arts in Mathematics** — San Jose State University (SJSU)
-
----
 
 ---
 
