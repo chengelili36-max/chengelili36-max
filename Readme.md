@@ -24,34 +24,34 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 
 
 ┌─────────────────────────────────────────────────────────────┐
-│                    DATA INGESTION LAYER                      │
-│         Python (Async API, Web Scraping, CSV/JSON)           │
-│         Pandas · NumPy · SciPy · Scikit-Learn                │
+│                    DATA INGESTION LAYER                     │
+│         Python (Async API, Web Scraping, CSV/JSON)          │
+│         Pandas · NumPy · SciPy · Scikit-Learn               │
 └──────────────────────┬──────────────────────────────────────┘
                        │
                        ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                   WAREHOUSE & MODELING                        │
-│              DuckDB · Snowflake · BigQuery                    │
-│     dbt (Staging → Intermediate → Mart · Star Schema)        │
-│         Data densification via generate_series()              │
-│              Tests · Documentation · Version control          │
+│                   WAREHOUSE & MODELING                      │
+│              DuckDB · Snowflake · BigQuery                  │
+│     dbt (Staging → Intermediate → Mart · Star Schema)       │
+│         Data densification via generate_series()            │
+│              Tests · Documentation · Version control        │
 └──────────────────────┬──────────────────────────────────────┘
                        │
                        ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                  ANALYTICS & ML LAYER                         │
-│     Classification (Random Forest · XGBoost)                  │
-│     Statistical Testing (Z-tests · Hypothesis Testing)       │
-│     Cohort Analysis · RFM Segmentation · Time Series          │
+│                  ANALYTICS & ML LAYER                       │
+│     Classification (Random Forest · XGBoost)                │
+│     Statistical Testing (Z-tests · Hypothesis Testing)      │
+│     Cohort Analysis · RFM Segmentation · Time Series        │
 └──────────────────────┬──────────────────────────────────────┘
                        │
                        ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                  VISUALIZATION LAYER                          │
-│         Tableau (Sankey · Sigmoid · Data Densification)       │
-│         Looker Studio · Power BI                              │
-│         Native builds — zero third-party plugins              │
+│                  VISUALIZATION LAYER                        │
+│         Tableau (Sankey · Sigmoid · Data Densification)     │
+│         Looker Studio · Power BI                            │
+│         Native builds — zero third-party plugins            │
 └─────────────────────────────────────────────────────────────┘
 
 ---
