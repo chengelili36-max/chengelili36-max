@@ -54,7 +54,8 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 │         Native builds — zero third-party plugins              │
 └─────────────────────────────────────────────────────────────┘
 
----
+
+
 ## 🛠️ Tech Stack & Tools
 
 | Category | Technologies |
