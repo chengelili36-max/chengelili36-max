@@ -16,17 +16,17 @@
 
 ## 🚀 Professional Summary
 
-I design **hybrid-architecture data systems** that combine modern ELT pipelines with intelligent analytics layers. My core architectural principle is to **push computation upstream and deliver insight downstream.** By architecting pipelines where `Python` handles ingestion and `dbt` structures transformation logic in `SQL`, I ensure the visualization layer (Tableau, Looker Studio) renders pre-optimized data—achieving a system that is fast, scalable, and logic-versioned.
+I design **hybrid-architecture data systems** that merge modern ELT pipelines with intelligent analytics layers. My guiding principle is to **push computation upstream and deliver insight downstream.** By architecting pipelines where `Python` handles ingestion and `dbt` modularizes transformation logic in `SQL`, I ensure the visualization layer (Tableau, Looker Studio) renders pre-optimized data—achieving a system that is performant, scalable, and fully version-controlled.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
-| Category | Tools & Technologies |
+| Category | Technologies |
 | :--- | :--- |
 | **Languages & DBs** | ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![SQL](https://img.shields.io/badge/sql-150458?style=flat-square&logo=postgresql&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=flat-square&logo=r&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black) ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white) |
 | **Data Engineering** | ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=Apache%20Airflow&logoColor=white) |
-| **Analytics & BI** | ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white) ![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square&logo=google&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **Analytics & ML** | ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white) ![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square&logo=google&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white) |
 | **Certifications** | `dbt Fundamentals` · `Six Sigma Green Belt` · `Google Analytics` · `Generative Deep Learning` |
 
 ---
@@ -34,34 +34,34 @@ I design **hybrid-architecture data systems** that combine modern ELT pipelines 
 ## 🌟 Open Source Contributions
 
 > ### [**Data-Stack-Lab | Soda Core Integration**](https://github.com/kiyeonjeon21/data-stack-lab/pull/19)
-> *Implemented automated data quality observability for dbt transformation layers.*
+> *Automating data quality observability within the dbt transformation layer.*
 > * **Contribution:** Developed 10+ validation checks (uniqueness, nullability, numeric ranges) for `staging` and `marts` models.
-> * **Tech:** `Soda Core` · `dbt` · `PostgreSQL` · `Docker Compose`
+> * **Impact:** Established a robust testing framework to prevent data drift and ensure downstream dashboard accuracy.
+> * **Tech Stack:** `Soda Core` · `dbt` · `PostgreSQL` · `Docker Compose`
 
 ---
 
 ## 📂 Featured Projects
 
 ### 🏗️ Data Engineering & Intelligent Modeling
-| Project | Tech Stack | Key Achievement |
+| Project | Stack | Key Achievement |
 | :--- | :--- | :--- |
 | [**LLM Audit Pipeline**](https://github.com/chengelili36-max/LLMOps-Audit-System) | `Python` `dbt` `DuckDB` | Built async API ingestion with **SQL-layer data densification** via `generate_series()` for seamless Sankey rendering. |
-| [**Game Economy Pipeline**](https://github.com/chengelili36-max/looker_game_project) | `Python` `dbt` `Looker` | Modeled 5,000+ daily logs into a **Star-Schema** to drive ROI and Net Profit KPI dashboards. |
+| [**Game Economy Pipeline**](https://github.com/chengelili36-max/looker_game_project) | `Python` `dbt` `Looker` | Modeled 5,000+ daily logs into a **Star-Schema** to drive ROI and Net Profit KPI reporting. |
 
-### 📊 Advanced Visualization & Statistical Rigor
-| Project | Method / Tool | Impact |
+### 📊 Visualization & Statistical Rigor
+| Project | Methodology | Business Impact |
 | :--- | :--- | :--- |
 | [**Multi-Touch Sankey**](https://github.com/chengelili36-max/Advanced-Sankey-Diagram-in-Tableau-User-Acquisition-Flow) | `Sigmoid Math` `Tableau` | Native Sankey built from first principles (49 bins) without third-party plugins. |
-| [**Churn Prediction ROI**](https://github.com/chengelili36-max/Telco-Churn-ROI-Prediction) | `Random Forest` `ML` | Translated 85% precision into a **$1.59M annualized ROI framework** for P&L decision-making. |
-| [**A/B Conversion Test**](https://github.com/chengelili36-max/E-Commerce-AB-Testing) | `Z-Test` `Statistics` | Utilized statistical proof ($p=0.9051$) to **halt a harmful rollout**, preventing global conversion loss. |
+| [**Churn Prediction ROI**](https://github.com/chengelili36-max/Telco-Churn-ROI-Prediction) | `Random Forest` `ML` | Translated 85% precision into a **$1.59M annualized ROI framework** for P&L stakeholders. |
+| [**A/B Conversion Test**](https://github.com/chengelili36-max/E-Commerce-AB-Testing) | `Z-Test` `Statistics` | Leveraged statistical proof ($p=0.9051$) to **halt a harmful rollout**, protecting global conversion. |
 
 ---
 
-## 🎯 Design Philosophy
+## 🎓 Education
 
-1. **Intelligence belongs in the pipeline, not the dashboard.** Pre-computing logic in `dbt`/`SQL` ensures speed and version control.
-2. **Build from first principles.** Understanding the underlying math (like sigmoid curves) allows for plugin-free, bespoke solutions.
-3. **Every model must speak in dollars.** Business impact (ROI/P&L) is the only metric that truly validates an analyst's work.
+* **Master of Science in Business Analytics (MSBA)** — University of La Verne
+* **Bachelor of Arts in Mathematics** — San Jose State University (SJSU)
 
 ---
 
