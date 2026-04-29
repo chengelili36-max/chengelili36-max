@@ -60,7 +60,7 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 
 ## 🎓 Education
 
-* **Master of Science in Business Analytics (MSBA)** — University of La Verne
+* **Master of Science in Data Analytics** — University of La Verne
 * **Bachelor of Arts in Mathematics** — San Jose State University (SJSU)
 
 ---
