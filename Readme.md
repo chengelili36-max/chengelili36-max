@@ -22,7 +22,7 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 
 ## 🏛️ Technical Architecture
 
-```text
+
 ┌─────────────────────────────────────────────────────────────┐
 │                    DATA INGESTION LAYER                      │
 │         Python (Async API, Web Scraping, CSV/JSON)           │
@@ -54,7 +54,7 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 │         Native builds — zero third-party plugins              │
 └─────────────────────────────────────────────────────────────┘
 
-
+---
 
 ## 🛠️ Tech Stack & Tools
 
