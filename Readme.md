@@ -20,6 +20,41 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 
 ---
 
+## 🏛️ Technical Architecture
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│                    DATA INGESTION LAYER                      │
+│         Python (Async API, Web Scraping, CSV/JSON)           │
+│         Pandas · NumPy · SciPy · Scikit-Learn                │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   WAREHOUSE & MODELING                        │
+│              DuckDB · Snowflake · BigQuery                    │
+│     dbt (Staging → Intermediate → Mart · Star Schema)        │
+│         Data densification via generate_series()              │
+│              Tests · Documentation · Version control          │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                  ANALYTICS & ML LAYER                         │
+│     Classification (Random Forest · XGBoost)                  │
+│     Statistical Testing (Z-tests · Hypothesis Testing)       │
+│     Cohort Analysis · RFM Segmentation · Time Series          │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                  VISUALIZATION LAYER                          │
+│         Tableau (Sankey · Sigmoid · Data Densification)       │
+│         Looker Studio · Power BI                              │
+│         Native builds — zero third-party plugins              │
+└─────────────────────────────────────────────────────────────┘
+
+---
 ## 🛠️ Tech Stack & Tools
 
 | Category | Technologies |
