@@ -22,6 +22,7 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 
 ## 🏛️ Technical Architecture
 
+```
 
 ┌─────────────────────────────────────────────────────────────┐
 │                    DATA INGESTION LAYER                     │
@@ -53,7 +54,7 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 │         Looker Studio · Power BI                            │
 │         Native builds — zero third-party plugins            │
 └─────────────────────────────────────────────────────────────┘
-
+```
 ---
 
 ## 🛠️ Tech Stack & Tools
