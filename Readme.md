@@ -51,6 +51,15 @@ Instead of relying on heavy front-end calculations, I architect pipelines where 
 
 ## 📂 Featured Projects
 
+## 🌟 Open Source Contributions
+
+### [DATA-STACK-LAB](https://github.com/data-stack-lab/data-stack-lab)
+* **Role:** Contributor (Data Quality Engineering)
+* **Contribution:** Implemented automated data quality checks using **Soda Core** for dbt-based data pipelines.
+* **Impact:** * Configured 10+ validation checks across `staging` and `marts` layers to ensure data integrity.
+    * Established testing for row counts, primary key uniqueness, and numeric range constraints.
+    * Streamlined the testing workflow by integrating Soda configurations within a Dockerized environment.
+* **Tech Stack:** Soda Core · dbt · PostgreSQL · Docker
 ### 🏗️ Data Pipeline & Intelligent Modeling (dbt + DuckDB)
 
 | Project | Stack | What It Demonstrates |
