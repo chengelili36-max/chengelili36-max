@@ -22,8 +22,7 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
 
 ## 🏛️ Technical Architecture
 
-```
-
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                    DATA INGESTION LAYER                     │
 │         Python (Async API, Web Scraping, CSV/JSON)          │
@@ -32,11 +31,11 @@ I design **hybrid-architecture data systems** that merge modern ELT pipelines wi
                        │
                        ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                   WAREHOUSE & MODELING                      │
+│                  WAREHOUSE & MODELING                       │
 │              DuckDB · Snowflake · BigQuery                  │
 │     dbt (Staging → Intermediate → Mart · Star Schema)       │
 │         Data densification via generate_series()            │
-│              Tests · Documentation · Version control        │
+│             Tests · Documentation · Version control         │
 └──────────────────────┬──────────────────────────────────────┘
                        │
                        ▼
